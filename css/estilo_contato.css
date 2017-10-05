@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,700');
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family:roboto;
+	 box-sizing: border-box
+}
+/*=========MENU===========*/
+.logo{
+	height: 70px;
+	width: 200px;
+	float: left;
+}
+.header{
+	display:grid;
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+}
+nav{
+	display:inline;
+	float:left;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+}
+.item:hover{
+	display: grid;
+	background-color: #ff0080;
+	width:140px;
+	height:80px;
+	display:flex;
+justify-content:center;
+align-items:center;
+}
+.item{
+display:grid;
+width:140px;
+height:80px;
+display:flex;
+justify-content:center;
+align-items:center;
+transition: all 600ms;
+}
+a{
+	padding: 0px 10px;
+	display: inline;
+	color:white;
+	text-decoration: none;
+}
+section{
+	background-image:url(../img/destaque-iweb-14jan.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:grid;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:680px;
+}
+h2{
+	font-size:38px;
+	color:#ed145b;
+	text-transform:uppercase;
+	margin-left:50px;
+}
+p{
+	font-size:18px;
+	color:white;
+	text-align:justify;
+	
+	
+}
+article{
+	display:inline-block;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+}
+aside{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	background-color:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+}
+input{   
+    width:350px;
+	height:30px;
+	background-color: transparent;
+}
+span{
+	font-size:18px;
+	color:white;
+	text-transform:uppercase;
+}
+option{
+	font-weight:600;
+}
+textarea{
+	width:350px;
+	height:100px;
+	background:transparent;
+}
+button {
+	background-color: #ed145b;
+	color:white;
+	font-weight: bolder;
+	font-size: 16px;
+	width:120px;
+    height:40px;
+	text-align: center;
+	cursor: pointer;
+	padding: 8px 25px;
+	text-transform: uppercase;
+	transition: all 400ms;
+}
+button:hover{
+	background: none;
+  	color: #ed145b;
+}
+.buttonright{
+	display:flex;
+	justify-content:flex-end;
+}
+footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	border:2px solid #ed145b;
+	PADDING:5px
+}
+	
+	
+	
+	
+	
